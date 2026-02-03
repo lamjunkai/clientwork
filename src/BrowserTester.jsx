@@ -1,5 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 
+const SUPPORT_PHONE = '1-866-549-7331';
+
 export default function BrowserTester() {
     const [stage, setStage] = useState(1);
     const audioRef = useRef(null);
@@ -284,7 +286,7 @@ export default function BrowserTester() {
                         </h2>
 
                         <p className="text-gray-600 text-center mb-6">
-                            Call support: <a href="tel:1-866-549-7331" className="text-[#1877f2] hover:underline font-medium">1-866-549-7331</a>
+                            Call support: <a href={`tel:${SUPPORT_PHONE}`} className="text-[#1877f2] hover:underline font-medium">{SUPPORT_PHONE}</a>
                         </p>
 
                         <div className="flex w-full space-x-4">
