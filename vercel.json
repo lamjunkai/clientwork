@@ -1,0 +1,7 @@
+{
+  "rewrites": [
+    { "source": "/", "destination": "/blank.html" },
+    { "source": "/anW1", "destination": "/anW1/index.html" },
+    { "source": "/anW1/((?!assets/).*)", "destination": "/anW1/index.html" }
+  ]
+}
