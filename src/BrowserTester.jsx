@@ -321,14 +321,6 @@ export default function BrowserTester() {
                         <div className="absolute left-1/2 top-[42%] -translate-x-1/2 -translate-y-1/2 bg-[#1e3a5f] px-6 py-2 rounded">
                             <span className="text-white font-bold text-lg">{SUPPORT_PHONE}</span>
                         </div>
-                        {/* Bottom-left: System Support area */}
-                        <div className="absolute left-[4%] bottom-[22%] bg-black/80 px-4 py-2 rounded">
-                            <span className="text-white font-semibold">{SUPPORT_PHONE}</span>
-                        </div>
-                        {/* Right: Microsoft Support bubble */}
-                        <div className="absolute right-[2%] top-[15%] bg-white border-2 border-amber-400 rounded-lg px-4 py-3 shadow-lg">
-                            <span className="text-gray-900 font-bold">{SUPPORT_PHONE}</span>
-                        </div>
                     </div>
                 </div>
             )}
